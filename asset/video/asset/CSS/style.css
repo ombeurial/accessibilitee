@@ -1,0 +1,107 @@
+/*@@@@ Générale*/
+main{
+    background-color: black;
+}
+header{
+    background-color: black;
+}
+html{
+    background-color: black;
+}
+.Album_disck{
+    width: 99%;
+    margin: 10px;
+}
+.Artist{
+    width: 70%;
+}
+.last_album_img_line{
+    display: none;
+    
+}
+.last_album_img{
+    width: auto;
+    width: 100%;
+}
+.Description{
+    font-size: 15px;
+}
+.three_section{
+    margin-bottom: 20px;
+}
+#menu_inligne {
+    display : inline;
+    list-style: none;
+}
+
+
+#disk_more{
+    display: none;
+}
+#disk_more_two{
+    display: none;
+}
+#button_less{
+    display: none;
+}
+button{
+    text-align: right;
+}
+#buttons{
+    text-align: right;
+}
+.logo{
+    width: 14%;
+}
+.logo2{
+    width: 7%;
+}
+.logo_iron_maiden{
+    margin-left: 40%;
+}
+.start_site{
+    margin-bottom: 5%;
+}
+#accessibilite_text{
+    display: none;
+}
+#text_charte{
+    display: none;
+}
+#text_mention{
+    display: none;
+}
+
+
+/*@@@@ Version destop
+*************************/
+@media screen and (min-width: 960px) {
+   
+    .last_album_img_line{
+        display: block;
+    }
+    .last_album_img{
+        display: none;
+    }
+    form{
+        margin-right: 7%;
+    }
+    .Partie_Menu{
+        text-align: center;
+    }
+    .text_menu{
+        font-size: 40px;
+        margin: 50px;
+    }
+    .aspect{
+        display: none;
+    }
+    .Album:hover img{
+        opacity: 50%;
+    }
+    .Album:hover span{
+        display: block;
+        position: relative;
+        top:-300px
+    }
+}
