@@ -1,0 +1,21 @@
+const button_more = document.getElementById("button_more");
+button_more.addEventListener('click',moreAlbum);
+const button_less = document.getElementById("button_less");
+button_less.addEventListener('click',lessAlbum);
+
+
+function moreAlbum(){
+    button_more.style.display='none';
+    button_less.style.display='block';
+    document.getElementById("disk_more").style.display='block';
+    document.getElementById("disk_more_two").style.display='block';
+
+}
+function lessAlbum(){
+    button_more.style.display='block';
+    button_less.style.display='none';
+    document.getElementById("disk_more").style.display='none';
+    document.getElementById("disk_more_two").style.display='none';
+}
+
+

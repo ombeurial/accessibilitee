@@ -1,0 +1,84 @@
+/*@@@@ Générale*/
+main{
+    background-color: black;
+}
+header{
+    background-color: black;
+}
+html{
+    background-color: black;
+}
+.Album_disck{
+    width: 99%;
+    margin: 10px;
+}
+.Artist{
+    width: 70%;
+}
+.last_album_img_line{
+    display: none;
+    
+}
+.last_album_img{
+    width: auto;
+    width: 100%;
+}
+.Description{
+    font-size: 15px;
+}
+.three_section{
+    margin-bottom: 20px;
+}
+#menu_inligne {
+    display : inline;
+}
+h5{
+    display: none;
+}
+h6{
+    display: none;
+}
+#disk_more{
+    display: none;
+}
+#disk_more_two{
+    display: none;
+}
+#button_less{
+    display: none;
+}
+button{
+    text-align: right;
+}
+form{
+    text-align: right;
+}
+.logo{
+    width: 14%;
+}
+.logo2{
+    width: 7%;
+}
+.logo_iron_maiden{
+    margin-left: 40%;
+}
+
+/*@@@@ Code pur le carouselle 
+********************************/
+
+
+
+/*@@@@ Version destop
+*************************/
+@media screen and (min-width: 960px) {
+   
+    .last_album_img_line{
+        display: block;
+    }
+    .last_album_img{
+        display: none;
+    }
+    form{
+        margin-right: 7%;
+    }
+}

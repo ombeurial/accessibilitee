@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Maiden</title>
+    <link rel="stylesheet" href="./asset/CSS/style.css">
+   <link rel="stylesheet" href="./asset/js/fonction.js"> 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+  
+</head>
+<body>
+<!--Menu à ancre-->
+
+<header class="position-sticky fixed-top">
+    <section class="Partie_Menu " >
+        <nav >
+            <ul class="m-0 ">
+                <li id="menu_inligne"><a href="#section_Biographie" class="text-white text-decoration-none text_menu">BIOGRAPHIE</a></li>
+                <li id="menu_inligne"><a href="#section_Discographie" class="text-white text-decoration-none text_menu">DISCOGRAPHIE</a></li>
+                <li id="menu_inligne"><a href="#section_nos_reseaux" class="text-white text-decoration-none text-uppercase text_menu">NOS RéSEAUX</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+<main>
+<!--Image De présentation du dernier album-->
+    <section class="start_site">
+        <img src="./asset/img/last album.jpg" alt="Image du dernier album de iron Maiden" class="last_album_img">
+        <img src="./asset/img/last album bandeau.jpg" alt="Banderole du  dernier album de iron Maiden" class="last_album_img_line">
+    </section >
+<!--carrousel-->
+    <section class="section_carrousel ">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+              <div class="carousel-item active" data-bs-interval="10000">
+                <video controls src="./asset/video/Iron Maiden - Total Eclipse (Official Audio).mp4" class="d-block w-100" alt="..."type="video/mp4">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <video controls src="./asset/video/Iron Maiden – The Writing On The Wall (Official Video).mp4" class="d-block w-100" alt="..."type="video/mp4">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <video controls src="./asset/video/Iron Maiden - Run To The Hills (Official Video).mp4" class="d-block w-100" alt="..."type="video/mp4">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-white">Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev bg-white" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden  text-white">Previous</span>
+            </button>
+            <button class="carousel-control-next bg-white" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+  </section>
+<!--Partie Biographie--> 
+    <section id="section_Biographie" class="three_section">
+        <h1 class="text-center text-white" aria-label=" Titre de la partie ( Biographie)">BIOGRAPHIE</h1>
+<!--Bio du groupe-->
+        <h2 class="text-center text-white">BIOGRAPHIE DU GROUPE</h2>
+        <h4 class="Description text-white">Iron Maiden est un groupe de heavy metal britannique, originaire 
+            de Londres.
+            Le groupe est formé en décembre 1975 par le bassiste Steve Harris,
+            rejoint très rapidement par le guitariste Dave Murray.
+            Il figure parmi les pionniers de la new wave of British heavy metal
+            (« la nouvelle vague de heavy metal britannique »).
+            Iron Maiden représente l'un des plus grands succès commerciaux du
+            heavy metal et a vendu plus de cent millions d'albums5,6,7. 
+            Son sens de la mélodie et une certaine complexité le rapprochent du 
+            metal progressif.</h4>
+<!--Membre actif du groupe-->
+        <h2 class="text-center text-white">MEMBRE ACTIF</h2>
+        <div class="container text-center">
+            <div class="row ">
+                <article class="col ">
+                    <h3 class="text-center text-white">Steve Harris</h3>
+                    <img src="./asset/img/Steve Harris.jpg" alt="Image de Steve HArris " class="Artist">
+                </article>
+                <article class="col ">
+                    <h3 class="text-center text-white">Dave Murray</h3>
+                    <img src="./asset/img/Dave Murray.jpg" alt="Image de Dave Murray" class="Artist">
+                </article>
+                <article class="col ">
+                    <h3 class="text-center text-white">Adrian Smith</h3>
+                    <img src="./asset/img/Adrian Smith.jpg" alt="Image de Adrian Smith" class="Artist">
+                </article>
+            </div>
+            <div class="row row-cols-3">
+                <article class="col ">
+                    <h3 class="text-center text-white">Bruce Dickinson</h3>
+                    <img src="./asset/img/Bruce Dickinson.jpg" alt="Image de Bruce Dicknison " class="Artist">
+                </article>
+                <article class="col ">
+                    <h3 class="text-center text-white">Nicko McBrain</h3>
+                    <img src="./asset/img/Nicko McBrain.jpg" alt="Image de Nicko McBrain " class="Artist">
+                </article>
+                <article class="col ">
+                    <h3 class="text-center text-white">Janick Gers</h3>
+                    <img src="./asset/img/Janick Gers.jpg" alt="Image de Janick Gers " class="Artist">
+                </article>
+                <article class="col ">
+                    <h3 class="text-center text-white">Michael Kenney</h3>
+                    <img src="./asset/img/Michael Kenney.jpg" alt="Image de Michael Kenney " class="Artist">
+                </article>
+            </div>
+        </div>
+        
+    </section>
+<!--Partie discographie-->
+    <section id="section_Discographie" class="three_section">
+        <h1 class="text-center text-white" aria-label=" Titre de la partie ( Discographie)">DISCOGRAPHIE</h1>
+<!--Liste des album-->
+        <h2 class="text-center text-white">ALBUM</h2>
+        <div class="container">
+            <div class="row">
+                <article class="Album col">
+                    <img src="./asset/img/senjutsu480.jpg" alt="Image de l'album senjutsu480 du groupe Iron Maiden" class="Album_disck" >
+                    <span class="aspect">
+                        <h5 class="text-center text-white">SENJUTSU</h5>
+                        <h6 class="text-center text-white">03/09/2021</h6>
+                    </span>
+                </article>
+                <article class="Album col">
+                    <img src="./asset/img/album-the-book-of-souls.jpg" alt="Image de l'album -the-book-of-souls du groupe Iron Maiden" class="Album_disck" >
+                    <span class="aspect">
+                        <h5 class="text-center text-white">THE BOOK OF SOULS</h5>
+                        <h6 class="text-center text-white">04/09/2015</h6>
+                    </span>
+                </article>
+                <article class="Album col">
+                    <img src="./asset/img/album-final-frontier.jpg" alt="Image de l'album final-frontier du groupe Iron Maiden" class="Album_disck">
+                    <span class="aspect">
+                        <h5 class="text-center text-white">THE FINAL FRONTIER</h5>
+                        <h6 class="text-center text-white">16/08/2010</h6>
+                    </span>
+                </article>
+            </div>
+            <div class="row">
+                <article class="Album col">
+                    <img src="./asset/img/album-a-matter-of-life-and-death.jpg" alt="Image de l'album a-matter-of-life-and-death du groupe Iron Maiden" class="Album_disck" >
+                    <span class="aspect">
+                        <h5 class="text-center text-white">A MATTER OF LIFE AND DEATH</h5>
+                        <h6 class="text-center text-white">28/08/2006</h6>
+                    </span>
+                </article>
+                <article class="Album col">
+                    <img src="./asset/img/album-dance-of-death.jpg" alt="Image de l'album dance-of-death du groupe Iron Maiden" class="Album_disck">
+                    <span class="aspect">
+                        <h5 class="text-center text-white">DANCE OF DEATH</h5>
+                        <h6 class="text-center text-white">08/09/2003</h6>
+                    </span>
+                </article>
+                <article class="Album col">
+                    <img src="./asset/img/album-brave-new-world.jpg" alt="Image de l'album brave-new-worl du groupe Iron Maiden" class="Album_disck">
+                    <span class="aspect">
+                        <h5 class="text-center text-white">BRAVE NEW WORLD</h5>
+                        <h6 class="text-center text-white">29/05/2000</h6>
+                    </span>
+                </article>
+            </div>
+            <div id="disk_more">
+                <div class="row" >
+                    <article class="Album col">
+                        <img src="./asset/img/album-virtual-xi.jpg" alt="Image de l'album virtual-xi du groupe Iron Maiden" class="Album_disck" id="album_more">
+                        <span class="aspect">
+                            <h5 class="text-center text-white">VIRTUAL XI</h5>
+                            <h6 class="text-center text-white">23/03/1998</h6>
+                        </span>
+                    </article>
+                    <article class="Album col">
+                        <img src="./asset/img/album-the-x-factor.jpg" alt="Image de l'album the-x-factor du groupe Iron Maiden" class="Album_disck" id="album_more">
+                        <span class="aspect">
+                            <h5 class="text-center text-white">THE X FACTOR</h5>
+                            <h6 class="text-center text-white">02/10/1995</h6>
+                        </span>
+                    </article>
+                    <article class="Album col">
+                        <img src="./asset/img/album-fear-of-the-dark.jpg" alt="Image de l'album fear-of-the-dark du groupe Iron Maiden" class="Album_disck" id="album_more">
+                        <span class="aspect">
+                            <h5 class="text-center text-white">FEAR OF THE DARK</h5>
+                            <h6 class="text-center text-white">11/05/1992</h6>
+                        </span>
+                    </article>
+                </div>
+                <div class="row">
+                    <article class="Album col">
+                        <img src="./asset/img/album-no-prayer-for-the-dying.jpg" alt="Image de l'album no-prayer-for-the-dying du groupe Iron Maiden" class="Album_disck" id="album_more" >
+                        <span class="aspect">
+                            <h5 class="text-center text-white">NO PRAYER FOR THE DYING</h5>
+                            <h6 class="text-center text-white">01/10/1990</h6>
+                        </span>
+                    </article>
+                    <article class="Album col">
+                        <img src="./asset/img/album-seventh-son.jpg" alt="Image de l'album seventh-son du groupe Iron Maiden" class="Album_disck" id="album_more" >
+                        <span class="aspect">
+                            <h5 class="text-center text-white">SEVENTH SON OF A SEVENTH SON</h5>
+                            <h6 class="text-center text-white">11/04/1988</h6>
+                        </span>
+                    </article>
+                    <article class="Album col">
+                        <img src="./asset/img/album-somewhere-in-time.jpg" alt="Image de l'album somewhere-in-time du groupe Iron Maiden" class="Album_disck" id="album_more" >
+                        <span class="aspect">
+                            <h5 class="text-center text-white">SOMEWHERE IN TIME</h5>
+                            <h6 class="text-center text-white">29/09/1986</h6>
+                        </span>
+                    </article>
+                </div>
+            </div>
+            <div id="disk_more_two">
+                <div class="row row-cols-3">
+                    <article class="Album col">
+                        <img src="./asset/img/album-power-slave.jpg" alt="Image de l'album power-slave du groupe Iron Maiden" class="Album_disck" id="album_more" >
+                        <span class="aspect">
+                            <h5 class="text-center text-white">POWERSLAVE</h5>
+                            <h6 class="text-center text-white">03/09/1984</h6>
+                        </span>
+                    </article>
+                    <article class="Album col">
+                        <img src="./asset/img/album-piece-of-mind.jpg" alt="Image de l'album piece-of-mind du groupe Iron Maiden" class="Album_disck" id="album_more" >
+                        <span class="aspect">
+                            <h5 class="text-center text-white">PIECE OF MIND</h5>
+                            <h6 class="text-center text-white">16/05/1983</h6>
+                        </span>
+                    </article>
+                    <article class="Album col">
+                        <img src="./asset/img/album-number-of-the-beast.jpg" alt="Image de l'album number-of-the-beast du groupe Iron Maiden" class="Album_disck" id="album_more" >
+                        <span class="aspect">
+                            <h5 class="text-center text-white">THE NUMBER OF THE BEAST</h5>
+                            <h6 class="text-center text-white">22/03/1982</h6>
+                        </span>
+                    </article>
+                    <article class="Album col">
+                        <img src="./asset/img/album-killers.jpg"  alt="Image de l'album killers du groupe Iron Maiden" class="Album_disck" id="album_more" >
+                        <span class="aspect">
+                            <h5 class="text-center text-white">KILLERS</h5>
+                            <h6 class="text-center text-white">02/02/1981</h6>
+                        </span>
+                    </article>
+                    <article class="Album col" >
+                        <img src="./asset/img/iron-maiden-extended-art-packshot-764.jfif" alt="Image de l'album iron-maiden-extended du groupe Iron Maiden" class="Album_disck" id="album_more" >
+                        <span class="aspect">
+                            <h5 class="text-center text-white">IRON MAIDEN</h5>
+                            <h6 class="text-center text-white">14/04/1980</h6>
+                        </span>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <form id="buttons">
+            <input class="btn btn-danger button_album"  id="button_more" type="button" role="button" value="Voir plus" aria-label="bouton pour voir plus d'album"></button>
+            <input class="btn btn-danger button_album " id="button_less" type="button" role="button" value="Voir moins" aria-label="bouton pour voir moins d'album"></button>
+        </form>
+        
+    </section>
+<!--Partie nos Réseaux -->
+    <section id="section_nos_reseaux" class="three_section">
+        <h1 class="text-center text-white text-uppercase" aria-label=" Titre de la partie ( Nos Réseaux)">NOS RéSEAUX </h1>
+        <ul class="text-center" >
+            <li id="menu_inligne">
+                <a href="https://twitter.com/IronMaiden"><img src="./asset/img/2021 Twitter logo - white.png" class="logo2" aria-label="Logo twitter donnant l'accès à leur page twitter" alt="logo twitter"></a>
+            </li>
+            <li id="menu_inligne">
+                <a href="https://www.facebook.com/ironmaiden"><img src="./asset/img/facebook.png" class="logo2" aria-label="Logo facebook donnant l'accès à leur page facebook" alt="logo facebook"></a>
+            </li>
+            <li id="menu_inligne">
+                <a href="https://www.bandsintown.com/a/1301-iron-maiden?came_from=im&trigger=track"><img src="./asset/img/01_BIT_StackedLogo_OverDark_All-White .png" class="logo" aria-label="Logo bandsintown donnant l'accès à leur page bandsintown"  alt="logo bandsintown"></a>
+            </li>
+            <li id="menu_inligne">
+                <a href="https://www.youtube.com/user/ironmaiden"><img src="./asset/img/yt_logo_mono_dark.png" class="logo" aria-label="Logo youtube  donnant l'accès à leur page youtube"  alt="logo youtube"></a>
+            </li>
+            <li id="menu_inligne">
+                <a href="https://www.instagram.com/ironmaiden/"><img src="./asset/img/new-Instagram-logo-white-full-gradient-colour-background-900x900.png" class="logo2" aria-label="Logo d'instagram donnant l'accès à leur instagram"  alt="logo instagram"></a>
+            </li>
+            <li id="menu_inligne">
+                <a href="https://open.spotify.com/artist/6mdiAmATAx73kdxrNrnlao"><img src="./asset/img/Spotify_Logo_RGB_White.png" class="logo" aria-label="Logo de spotify donner l'acces à leur album sur spotify" alt="logo spotify"></a>
+            </li>
+            <li id="menu_inligne">
+                <a href="https://music.apple.com/us/artist/iron-maiden/546381"><img src="./asset/img/appel.png" class="logo" aria-label="Logo appel donnant l'accès à leurs album sur l'appel store " alt="logo appel"></a>
+            </li>
+        </ul>
+        <ul class="logo_iron_maiden">
+            <li id="menu_inligne">
+                <a href="https://www.ironmaiden.com"><img src="./asset/img/Iron-Maiden-logo-500x250.jpg" class="logo" aria-label="Logo du groupe Iron mainde donnant l'accès au site officiel" alt="logo Iron maiden"></a>
+            </li> 
+        </ul>
+    </section>
+    <footer>
+        <section class="bg-white">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <a  aria-label="texte pour voir le texte sur la prise en charge des mentions légales du site" id="mentions_legales">Mentions Légales</a>
+                    </div>
+                    <div class="col">
+                        <a aria-label="texte pour voir le texte sur la prise en charge de l'accessibilite du site" id="accessiblite">Accessibilité</a>
+                    </div>
+                    <div class="col">
+                        <a id="Charte_utilisation" aria-label="texte pour voir le texte sur la prise en charge de la charte d'utilisation du site">Charte d'utilisation</a>
+                    </div>
+                </div>
+            </div>
+            <p id="accessibilite_text" >
+                Le site internet d’Iron Maiden s'efforce de respecter les recommandations de la WAI (Web Accessibility Initiative) qui déterminent comment rendre les sites techniquement accessibles et faciliter ainsi la navigation sur le site.
+CONFORMITE AUX NORMES
+
+AIDE À LA NAVIGATION
+- liens d'accès rapide : placés en haut de page et pied de page, ces liens permettent d'accéder directement au contenu de la page.
+- navigation par tabulation : pour naviguer d'un lien à l'autre à l'aide de la touche de tabulation (appuyez sur la touche "tab" et répétez jusqu'à sélectionner le lien désiré, validez par "entrée").
+- fil d'ariane : vous indique le chemin de navigation que vous avez emprunté en situant la page affichée à l'écran et vous permet de remonter dans l'arborescence.
+PROFITER DE L'ACCESSIBILITÉ NUMÉRIQUE
+Un site respectant les normes d'accessibilité vous permet de nombreux ajustements. Vous pouvez par exemple zoomer dans une page sans pour autant perdre en confort de lecture. Utilisez pour cela les options de votre navigateur ou la molette de votre souris en pressant, en même temps, la touche CTRL de votre clavier.
+La mise en forme du site est indépendante de son contenu grâce à l'utilisation des feuilles de style, aussi chaque élément visuel dispose d'une alternative textuelle, ce qui permet aux navigateurs en mode texte (logiciel de synthèse vocale) d’accéder uniquement aux contenus éditoriaux et de faciliter la navigation
+Iron Maiden ne peut néanmoins et en aucun cas garantir l’absence totale d’erreur matérielle, de déficience technique ou autre sur son site. Elle ne garantit pas davantage la continuité et la qualité des services disponibles sur le site, ainsi que la permanence de son accessibilité.
+Iron Maiden ne saurait être tenue responsable d’un dommage quelconque lié à l’utilisation du site.
+            </p>
+            <p id="text_charte"></p>
+            <p id="text_mention">
+                Les présentes mentions légales ont été mises à jour pour la dernière fois le 06/01/2022. L'éditeur du site se réserve le droit de modifier les mentions légales à tout moment et sans préavis. Il appartient à l'utilisateur de vérifier qu'il a pris connaissance de la dernière version en date lors de ses visites sur le présent site.
+            </p>
+         
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+        <script src="./asset/js/fonction.js"></script>
+    </footer>
+
+</main>
+</body>
+</html>
